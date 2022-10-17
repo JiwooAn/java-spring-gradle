@@ -7,8 +7,9 @@ import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import domain.Member;
-import repository.MemoryMemberRepository;
+import com.example.demo.domain.Member;
+import com.example.demo.repository.MemoryMemberRepository;
+import com.example.demo.service.MemberService;
 
 class MemberServiceTest {
 

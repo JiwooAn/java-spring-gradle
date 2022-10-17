@@ -1,4 +1,4 @@
-package service;
+package com.example.demo.service;
 
 import java.util.List;
 import java.util.Optional;
@@ -6,8 +6,8 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import domain.Member;
-import repository.MemberRepository;
+import com.example.demo.domain.Member;
+import com.example.demo.repository.MemberRepository;
 
 public class MemberService {
 

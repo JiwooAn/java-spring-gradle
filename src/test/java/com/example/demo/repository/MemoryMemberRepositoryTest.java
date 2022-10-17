@@ -3,8 +3,8 @@ package com.example.demo.repository;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Test;
 
-import domain.Member;
-import repository.MemoryMemberRepository;
+import com.example.demo.domain.Member;
+import com.example.demo.repository.MemoryMemberRepository;
 
 import static org.assertj.core.api.Assertions.*;
 
