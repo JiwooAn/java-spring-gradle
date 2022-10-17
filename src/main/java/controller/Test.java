@@ -1,4 +1,4 @@
-package web;
+package controller;
 
 public class Test {
     public int id;
