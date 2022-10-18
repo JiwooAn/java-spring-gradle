@@ -22,7 +22,7 @@ class MemoryMemberRepositoryTest {
     @Test
     public void save() {
         Member member = new Member();
-        member.setNmae("spring");
+        member.setName("spring");
 
         repository.save(member);
 
